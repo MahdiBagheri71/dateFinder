@@ -11,10 +11,10 @@ Given a string, dateFinder will try to extract a valid date from it. It returns 
 
 ### Usage
 
-`$df = new dateFinder('December 7th, 1969');` 
+`$df = new dateFinder('December 7th, 1969');`  
 `var_dump($df->parsedDate);`
 
 ### Unit Tests
 
-`$df = new dateFinder();`
+`$df = new dateFinder();`  
 `$df->unitTests();`
