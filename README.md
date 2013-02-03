@@ -4,17 +4,17 @@ Given a string, dateFinder will try to extract a valid date from it. It returns 
 
 ### Example
 
-“1969” - returns (1969, 1, 1, true)
-“Dec ‘69” - returns (1969, 12, 1, true)
-“7th December, 1969” - returns (1969, 12, 7)
+“1969” - returns (1969, 1, 1, true)  
+“Dec ‘69” - returns (1969, 12, 1, true)  
+“7th December, 1969” - returns (1969, 12, 7)  
 “64th December, 1969” - returns false
 
 ### Usage
 
-`$df = new dateFinder('December 7th, 1969');
+`$df = new dateFinder('December 7th, 1969');  
 var_dump($df->parsedDate);`
 
 ### Unit Tests
 
-`$df = new dateFinder();
+`$df = new dateFinder();  
 $df->unitTests();`
